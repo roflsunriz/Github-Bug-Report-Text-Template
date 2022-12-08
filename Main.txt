@@ -1,0 +1,54 @@
+Environment
+===========
+Platform:
+OS Version:
+Platform Version:
+Testing Software Version:
+Device Models:
+Accounts:
+ID:
+Connection Type:
+Reproducibility Rate:
+
+
+Description
+===========
+
+
+
+Steps to reproduce
+==================
+1.
+
+
+Expected result
+===============
+
+
+
+Actual result
+=============
+
+
+
+
+Severity
+========
+The severity that reporter think impacts the software.
+Critical / High / Moderate / Low
+
+
+Priority
+========
+Possible priority to fix.
+High / Medium / Low
+
+
+
+Screenshots / Videos / Logs
+===========================
+
+
+
+Notes
+=====
