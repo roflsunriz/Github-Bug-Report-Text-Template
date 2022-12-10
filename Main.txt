@@ -8,7 +8,6 @@ Device Models:
 Accounts:
 ID:
 Connection Type:
-Reproducibility Rate:
 
 
 
@@ -32,21 +31,24 @@ Actual result
 
 
 
+Reproducibility Rate
+====================
+Always / Generally / Frequently / Often / Sometimes / Occasionally / Rarely
+
+
 Workarounds
 ===========
 
 
 
-Severity
-========
-The severity that reporter think impacts the software.
+Severity (Reference)
+====================
 Critical / High / Moderate / Low
 
 
 
-Priority
-========
-Possible priority to fix.
+Priority (Reference)
+====================
 High / Medium / Low
 
 
