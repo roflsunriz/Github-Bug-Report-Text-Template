@@ -11,6 +11,7 @@ Connection Type:
 Reproducibility Rate:
 
 
+
 Description
 ===========
 
@@ -31,11 +32,16 @@ Actual result
 
 
 
+Workarounds
+===========
+
+
 
 Severity
 ========
 The severity that reporter think impacts the software.
 Critical / High / Moderate / Low
+
 
 
 Priority
@@ -52,3 +58,5 @@ Screenshots / Videos / Logs
 
 Notes
 =====
+
+
