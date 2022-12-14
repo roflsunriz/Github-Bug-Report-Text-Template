@@ -62,3 +62,5 @@ Notes
 =====
 
 
+
+Used <a href="https://github.com/roflsunriz/Github-Bug-Report-Text-Template">Github Bug Report Text Template</a> to make this report!
