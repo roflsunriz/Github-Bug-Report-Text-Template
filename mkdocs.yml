@@ -1,0 +1,23 @@
+site_name: Github Bug Report Text Template
+site_description: Bug report template with one-click copy support.
+site_url: https://roflsunriz.github.io/Github-Bug-Report-Text-Template/
+repo_url: https://github.com/roflsunriz/Github-Bug-Report-Text-Template
+edit_uri: ""
+
+nav:
+  - Home: index.md
+
+theme:
+  name: readthedocs
+
+extra_css:
+  - assets/styles.css
+
+extra_javascript:
+  - assets/copy-template.js
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - tables
