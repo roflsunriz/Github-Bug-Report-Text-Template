@@ -12,6 +12,9 @@
 
 ### Changed
 
+
+- 不具合・機能提案などの受付とPRの記入形式を揃え、プロジェクト固有の確認項目を残した。 READMEは既存の意味と手順を保ち、実装と異なる説明や読みにくい表現を修正した。
+
 - デプロイワークフローの実行環境を最新のアクションに追随させるため、`actions/checkout` を v4 から v7、`actions/setup-python` を v5 から v7、`actions/upload-pages-artifact` を v3 から v5、`actions/deploy-pages` を v4 から v5 へ更新した。
 
 - 依存更新を安全に省力化するため、Dependabot の patch／minor PR を既存 CI の全チェック成功後に自動取り込みし、失敗ジョブを一度再実行する設定を追加した。
