@@ -20,3 +20,8 @@
 - python -m mkdocs build --strictが通過した。公開サイトの実表示・新たな公開操作はこのローカル確認に含めない。
 - 文書移動と参照整理では製品の実行時ロジックを変更していない。実機書換え、認証操作、外部サービスへの投稿・署名・リリースは実施せず、これらの動作が再検証済みであるとは扱わない。
 - ローカルにこの変更で解決・導入した製品依存はなく、既存の設定・workflowとGitHubの検出済み警告を照合した。Gradle/APK・Python GUI・ブラウザ実動作など、今回実行していない系統の検証や網羅的な依存更新確認は未実施として区別する。
+
+## 2026-10-20: Dependabot 月末一括処理
+
+- `.github/dependabot.yml` は毎月28日00:00、`.github/workflows/dependabot-automation.yml` は同日18:00（いずれも `Asia/Tokyo`）に設定した。呼び出し先は検証済み共通 workflow の固定 SHA とし、現在の head SHA、Dependabot の資格状態、全 PR チェック成功を merge 前に再確認する。
+- YAML 構文、変更差分、空白エラーをローカルで検査した。実際の月末 schedule と Dependabot PR の merge 経路は、次回の毎月28日実行で確認する。
